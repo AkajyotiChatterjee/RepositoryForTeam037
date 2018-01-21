@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.zeiss.zeissapp.Main4Activity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#298c9b"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="336dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="80dp"
+            android:background="#49a1af"
+            android:gravity="center"
+            android:text="feedback"
+            android:textColor="#fff"
+            android:textSize="45dp" />
+
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="271dp"
+
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="Your response has been recorded!"
+            android:textColor="#cccccc"
+            android:textSize="27dp" />
+
+        <Button
+            android:id="@+id/button4"
+            android:layout_width="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginTop="120dp"
+            android:layout_marginRight="30dp"
+            android:background="#49a1af"
+            android:textColor="#fff"
+            android:textSize="22dp"
+            android:onClick="home"
+            android:layout_height="wrap_content"
+            android:text="done" />
+
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

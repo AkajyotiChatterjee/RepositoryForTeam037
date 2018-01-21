@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "981968487574",
+    "firebase_url": "https://zeissapp-aefa2.firebaseio.com",
+    "project_id": "zeissapp-aefa2",
+    "storage_bucket": "zeissapp-aefa2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:981968487574:android:7178eb8b05eb6010",
+        "android_client_info": {
+          "package_name": "com.example.zeiss.zeissapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "981968487574-lbeum30p7otjqlsqgsfck7lakc0999kd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.zeiss.zeissapp",
+            "certificate_hash": "174bc55426ad8c6e9dcacabfd7270d088c93b629"
+          }
+        },
+        {
+          "client_id": "981968487574-3nnirotu1fjqbik1c2rfdumq0pdt0q4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJiBpMFAp7mIOmT4MQ_pLVxUnqvjVZUos"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "981968487574-3nnirotu1fjqbik1c2rfdumq0pdt0q4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
